@@ -7,7 +7,7 @@ architecture: pretrained densenet base
 
 loss: binary cross-entropy
 
-eval metric: micro f2 score (proxy for competition metric of mean f2 score)
+eval metric: mean f2 score
 
 optim: AdamW
 
