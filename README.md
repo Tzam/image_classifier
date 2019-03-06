@@ -17,7 +17,7 @@ Overview of solution:
 
 * Loss Func: binary cross-entropy
 
-* Evaluation metric: mean f2 score (same as micro f1)
+* Evaluation metric: mean f2 score (same as micro f2)
 
 * Optim: AdamW
 
