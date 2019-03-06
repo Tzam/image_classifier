@@ -4,7 +4,7 @@ Jupyter notebook using deep learning to predict terrain classification in Kaggle
 Kaggle competition here: https://www.kaggle.com/c/planet-understanding-the-amazon-from-space  
 Given satellite imagery of the Amazon, task was to predict which terrain categories (primary rainforest, agriculture etc) were present in each image. Competition was originally run mid-2017.
 
-I used this notebook to take my own stab at the problem. The approach I used gets a mean f2 score of **0.931** on the test set, compared to the competition winning score at the time of **0.933** This approach takes around 5 hours to train on a single GPU.
+I used this notebook to take my own stab at the problem. The approach I used gets a mean f2 score of **0.931** on the test set, compared to the competition winning score at the time of **0.933**. This approach takes around 5 hours to train on a single GPU.
 I've also included a few tweaks I tried to try and improve the score (that didn't work on this dataset, but have been used with success in other competitions).
 
 Overview of solution:
